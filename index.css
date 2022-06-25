@@ -11,15 +11,19 @@
 /* This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fontshop.com */
 
 body {
+
 	
 	font-family: "DIN W01 Regular";
 	background-color: #FFFFFF;
 	width: 100%;
 	height: 100%;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	resize: both auto;
+	object-fit: scale-down;
+	
 	
 }
 
@@ -43,13 +47,19 @@ p {
 }
 
 .content {
+
 	
-	position: absolute;
+	min-height: 125px;
+	min-width: 125px;
+	transform-origin: top;
 	margin-left: 250px;
 	margin-right: 250px;
 	margin-top: 250px;
 	margin-bottom: 250px;
-	align-content: center;
-	
 }
 
+img{
+	
+	resize: both;
+	
+}
