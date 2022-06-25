@@ -55,6 +55,15 @@ p {
 	margin-bottom: 250px;
 }
 
+img{
+	
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	outline-width: 1px;
+	outline-color: black;
+	
+}
+
 #milano {
 	
 	vertical-align: middle;
@@ -63,3 +72,4 @@ p {
 	margin-bottom: 5px;
 	margin-right: 25px;
 }
+
