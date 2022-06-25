@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=ad3f6ed6-0706-439d-b680-8e8e2bf91910&fontids=5591097");
+
 @font-face{
 	
         font-family:"DIN W01 Regular";
@@ -9,10 +10,8 @@
 }
 
 /* This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fontshop.com */
-
 body {
 
-	
 	font-family: "DIN W01 Regular";
 	background-color: #FFFFFF;
 	width: 100%;
@@ -21,9 +20,6 @@ body {
 	margin-right: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	resize: both auto;
-	object-fit: scale-down;
-	
 	
 }
 
@@ -36,7 +32,6 @@ body {
 	bottom: 25px; 
 	right: 25px;
 	
-	
 }
 
 p {
@@ -48,18 +43,9 @@ p {
 
 .content {
 
-	
-	min-height: 125px;
-	min-width: 125px;
-	transform-origin: top;
+	position: absolute;
 	margin-left: 250px;
 	margin-right: 250px;
 	margin-top: 250px;
 	margin-bottom: 250px;
-}
-
-img{
-	
-	resize: both;
-	
 }
